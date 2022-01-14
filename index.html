@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Widget</title>
+    <style>
+        body {
+            background: #dedede;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<iframe id="jmSwapFrame" src="https://justmoney.exchange/widget" style="width:500px;height:500px;margin:auto;display:block;" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+<script type="application/javascript">
+    var JMSwapOptions = {
+        network: 'TRON',
+        slippage: 0.05,
+        liquidityTab: true,
+        shadow: false,
+        backgroundColor: '#9B9F9E',
+        backgroundImage: 'url(/assets/img/swap-form-bg-lighter.svg);',
+        textColor: '#000',
+        buttonStyle: 'background:#FFF;color:#000;',
+        maxButtonStyle: 'background:#FFF;color:#000;',
+        headingStyle: 'color:#353840;text-shadow:none',
+        lightBranding: false,
+        tokens: ['USDT', 'TRX', 'JM', 'WOX'],
+        fromToken: "TRX",
+        toToken: "WOX",
+    }
+</script>
+<script src="https://justmoney.exchange/assets/js/widgetLib-1.0.js"></script>
+
+
+
+</body>
+</html>
